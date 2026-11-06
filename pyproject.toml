@@ -1,9 +1,10 @@
 [project]
-name = "n8n-masterclass"
+name = "n8n-ai-executive-assistant"
 version = "0.1.0"
-description = "Add your description here"
+description = "Autonomous workspace AI executive assistant built with n8n, LangChain, and Streamlit"
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
     "streamlit>=1.53.0",
+    "requests>=2.31.0",
 ]

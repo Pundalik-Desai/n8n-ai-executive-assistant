@@ -1,13 +1,38 @@
-# Python-generated files
+# Byte-compiled / optimized / DLL files
 __pycache__/
-*.py[oc]
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
 build/
 dist/
 wheels/
-*.egg-info
+*.egg-info/
 
-# Virtual environments
-.venv
+# Virtual Environments
+.venv/
+venv/
+env/
 
-# video files
-n8n_masterclass_2.mp4
+# Environment Variables & Secrets
+.env
+.env*.local
+
+# macOS specific files
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Editor / IDE directories
+.vscode/
+.idea/
+
+# Logs
+*.log
+
+# Large media files and course PDFs
+*.mp4
+*.mov
+*.pdf
+N8N MasterClass.pdf
